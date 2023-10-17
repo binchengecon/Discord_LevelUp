@@ -119,5 +119,8 @@ if __name__ == '__main__':
         print("Iteration " + str(i) + " complete.\n")
         sleep(main_wait)
         sleep(random()*human_margin)
+        
+        # if i%10==0:
+        #     main("!rank")
 
     print("Session complete! " + str(messages) + " messages sent.")
